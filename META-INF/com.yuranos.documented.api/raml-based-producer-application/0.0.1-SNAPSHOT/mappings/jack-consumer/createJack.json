@@ -1,0 +1,30 @@
+{
+  "id" : "67e5fcb0-ee88-42a8-a925-7a35ea1537cd",
+  "request" : {
+    "url" : "/bookings/",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['passengerSurname'] == 'Daniels')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['arrivalDate'] == '2018-02-28T12:42:17Z')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['departureDate'] == '2018-05-28T13:00:56Z')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['age'] == 30)]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['passengerName'] == 'Jack')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['destination'] == 'USA')]"
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "67e5fcb0-ee88-42a8-a925-7a35ea1537cd"
+}
