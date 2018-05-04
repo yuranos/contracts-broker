@@ -1,6 +1,6 @@
 request:
     method: POST
-    url: /bookings/
+    url: /bookings
     body:
         destination: "USA"
         departureDate: "2018-05-28T13:00:56Z"
