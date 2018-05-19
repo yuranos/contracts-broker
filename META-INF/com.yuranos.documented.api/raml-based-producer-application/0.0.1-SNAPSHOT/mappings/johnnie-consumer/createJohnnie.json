@@ -1,5 +1,5 @@
 {
-  "id" : "cc1539e1-7924-4b63-bb47-fcc6ad36eaaf",
+  "id" : "5aaefc2a-3d1c-4c83-a199-1b6ce4c53c7f",
   "request" : {
     "url" : "/bookings",
     "method" : "POST",
@@ -26,5 +26,5 @@
     "status" : 201,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "cc1539e1-7924-4b63-bb47-fcc6ad36eaaf"
+  "uuid" : "5aaefc2a-3d1c-4c83-a199-1b6ce4c53c7f"
 }
